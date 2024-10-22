@@ -1,0 +1,13 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "e2e": "npx playwright test",
+    "report": "npx playwright show-report ./html-results"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.7"
+  }
+}
